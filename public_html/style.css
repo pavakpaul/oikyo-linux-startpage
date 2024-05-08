@@ -1,0 +1,68 @@
+header {
+    padding: 5em 0;
+}
+
+#search-engine {
+    text-align: center;
+}
+
+#search-engine .search-engine-logo {
+    padding: 1em 0;
+}
+
+#search-engine .search-engine-logo img {
+    height: 4em;
+}
+
+
+#search-engine input {
+    font-size: 1.2em;
+    padding: .4em;
+    min-width: min-content;
+}
+
+#search-engine button {
+    font-size: 1.2em;
+    padding: .4em 2em;
+    color:white;
+}
+
+.search-engine-toggle {
+    padding: 1em;
+}
+
+.search-engine-toggle img {
+    height:1.7em;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.search-engine-toggle img.active{
+    border-color: black;
+}
+
+.links-grid {
+    width:fit-content;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.links-grid .link-item {
+    padding: .25em;
+}
+
+.links-grid a i{
+    font-size: 10em;
+    color:slategray;
+}
+
+button.search-button-ddg {
+    background: hsl(5, 71%, 56%);
+    border-color: hsl(5, 71%, 56%);
+}
+
+button.search-button-google {
+    background: hsl(217, 89%, 61%);
+    border-color: hsl(217, 89%, 61%);
+}
